@@ -1,0 +1,23 @@
+weather-app/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   ├── app.js
+│   └── config.js
+└── images/
+    ├── clear.jpg
+    ├── clouds.jpg
+    ├── rain.jpg
+    ├── snow.jpg
+    └── mist.jpg
+
+
+I'll create a weather app that fetches real-time data from a weather API, allows searching by location, displays a 5-day forecast, and changes the background based on the current weather.
+
+
+
+
+
+You can search weather forecast for 5 days with data every 3 hours by geographic coordinates. All weather data can be obtained in JSON and XML formats.
+api.openweathermap.org/data/2.5/forecast?lat={lat}&lon={lon}&appid={API key}
